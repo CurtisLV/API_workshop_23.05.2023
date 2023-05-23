@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: Karlis API
+  version: '713.33'
+  description: YAOA
+  termsOfService: OKAY
+  contact:
+    email: email@email.com
+    name: Youza
+    url: www.example.com/contact
+  license:
+    name: MIT 2.0
+    url: www.example.com/license
+servers:
+  - url: https://my-json-server.typicode.com/CurtisLV/API_workshop_23.05.2023./api
+    variables: {}
+    description: My db.json
+  - url: fake github server
+    variables: {}
+    description: https://my-json-server.typicode.com/bearc0025/api
