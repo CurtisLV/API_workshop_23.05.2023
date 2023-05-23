@@ -1,5 +1,5 @@
 {
-    "users": [
+    "quotes": [
         {
             "id": 1,
             "quote": "Life isn’t about getting and having, it’s about giving and being.",
@@ -19,6 +19,27 @@
             "id": 4,
             "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
             "author": "Robert Frost"
+        }
+    ],
+
+    "todos": [
+        {
+            "id": 1,
+            "todo": "Do something nice for someone I care about",
+            "completed": true,
+            "userId": 26
+        },
+        {
+            "id": 2,
+            "todo": "Memorize the fifty states and their capitals",
+            "completed": false,
+            "userId": 48
+        },
+        {
+            "id": 3,
+            "todo": "Watch a classic movie",
+            "completed": false,
+            "userId": 4
         }
     ]
 }
