@@ -2,13 +2,13 @@
     "users": [
         {
             "id": "1234abc",
-            "username": "bear",
+            "username": "Karlis",
             "score": 55,
             "active": true
         },
         {
             "id": "qwerty",
-            "username": "jed",
+            "username": "toms",
             "score": 553,
             "active": true
         },
