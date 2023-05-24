@@ -12,6 +12,9 @@ info:
         name: MIT 2.0
         url: www.example.com/license
 servers:
+    - url: http://localhost:3000/
+      variables: {}
+      description: Local server
     - url: https://my-json-server.typicode.com/CurtisLV/API_workshop_23.05.2023./api
       variables: {}
       description: My db.json
