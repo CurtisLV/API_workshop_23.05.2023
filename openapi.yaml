@@ -23,8 +23,8 @@ servers:
       description: https://my-json-server.typicode.com/bearc0025/api
 paths:
     /users:
-        summary: user operations for fetching an creating new users
-        description: fetch and store
+        summary: fetch and create users
+        description: returns users, stores users
         get:
             summary: fetch users from server
             description: returns users
@@ -41,27 +41,15 @@ paths:
             tags:
                 - Users
         post:
-            summary: create user
-            description: store user on a server
+            summary: create a new user
+            description: store user on server
             operationId: createUser
             requestBody:
                 required: true
                 content:
                     application/json:
                         schema:
-                            type: object
-                            properties:
-                                username:
-                                    type: string
-                                    example: Karlis
-                                score:
-                                    type: integer
-                                    example: 33
-                                active:
-                                    type: boolean
-                                    example: true
-                            required:
-                                - username
+                            $ref: '#/components/schemas/PostNewUser'
             responses:
                 '201':
                     description: success
@@ -90,3 +78,15 @@ components:
                 active:
                     type: boolean
                     example: true
+        PostNewUser:
+            type: object
+            properties:
+                username:
+                    type: string
+                    example: Karlis
+                score:
+                    type: integer
+                    example: 33
+                active:
+                    type: boolean
+                    example:
