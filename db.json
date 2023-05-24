@@ -1,79 +1,84 @@
 {
-    "users": [
-        {
-            "id": "1234abc",
-            "username": "Karlis",
-            "score": 55,
-            "active": true
-        },
-        {
-            "id": "qwerty",
-            "username": "toms",
-            "score": 553,
-            "active": true
-        },
-        {
-            "username": "schmeb",
-            "score": 59,
-            "active": true,
-            "id": "i1HYeyQ"
-        }
-    ],
-    "attempts": [
-        [
-            {
-                "id": "a1",
-                "score": 5,
-                "userId": "qwerty"
-            },
-            {
-                "id": "999",
-                "score": 8,
-                "userId": "qwerty"
-            }
-        ]
-    ],
-    "quotes": [
-        {
-            "id": 1,
-            "quote": "Life isn’t about getting and having, it’s about giving and being.",
-            "author": "Kevin Kruse"
-        },
-        {
-            "id": 2,
-            "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
-            "author": "Napoleon Hill"
-        },
-        {
-            "id": 3,
-            "quote": "Strive not to be a success, but rather to be of value.",
-            "author": "Albert Einstein"
-        },
-        {
-            "id": 4,
-            "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
-            "author": "Robert Frost"
-        }
-    ],
-
-    "todos": [
-        {
-            "id": 1,
-            "todo": "Do something nice for someone I care about",
-            "completed": true,
-            "userId": 26
-        },
-        {
-            "id": 2,
-            "todo": "Memorize the fifty states and their capitals",
-            "completed": false,
-            "userId": 48
-        },
-        {
-            "id": 3,
-            "todo": "Watch a classic movie",
-            "completed": false,
-            "userId": 4
-        }
+  "users": [
+    {
+      "id": "1234abc",
+      "username": "Karlis",
+      "score": 55,
+      "active": true
+    },
+    {
+      "id": "qwerty",
+      "username": "toms",
+      "score": 553,
+      "active": true
+    },
+    {
+      "username": "schmeb",
+      "score": 59,
+      "active": true,
+      "id": "i1HYeyQ"
+    },
+    {
+      "username": "Karlis_old",
+      "score": 77,
+      "active": true,
+      "id": "XWs0nB7"
+    }
+  ],
+  "attempts": [
+    [
+      {
+        "id": "a1",
+        "score": 5,
+        "userId": "qwerty"
+      },
+      {
+        "id": "999",
+        "score": 8,
+        "userId": "qwerty"
+      }
     ]
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "Life isn’t about getting and having, it’s about giving and being.",
+      "author": "Kevin Kruse"
+    },
+    {
+      "id": 2,
+      "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
+      "author": "Napoleon Hill"
+    },
+    {
+      "id": 3,
+      "quote": "Strive not to be a success, but rather to be of value.",
+      "author": "Albert Einstein"
+    },
+    {
+      "id": 4,
+      "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+      "author": "Robert Frost"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Do something nice for someone I care about",
+      "completed": true,
+      "userId": 26
+    },
+    {
+      "id": 2,
+      "todo": "Memorize the fifty states and their capitals",
+      "completed": false,
+      "userId": 48
+    },
+    {
+      "id": 3,
+      "todo": "Watch a classic movie",
+      "completed": false,
+      "userId": 4
+    }
+  ]
 }
