@@ -1,4 +1,24 @@
 {
+    "users": [
+        {
+            "id": "1234abc",
+            "username": "bear",
+            "score": 55,
+            "active": true
+        },
+        {
+            "id": "qwerty",
+            "username": "jed",
+            "score": 553,
+            "active": true
+        },
+        {
+            "username": "schmeb",
+            "score": 59,
+            "active": true,
+            "id": "i1HYeyQ"
+        }
+    ],
     "quotes": [
         {
             "id": 1,
@@ -40,26 +60,6 @@
             "todo": "Watch a classic movie",
             "completed": false,
             "userId": 4
-        }
-    ],
-    "users": [
-        {
-            "id": "1234abc",
-            "username": "bear",
-            "score": 55,
-            "active": true
-        },
-        {
-            "id": "qwerty",
-            "username": "jed",
-            "score": 553,
-            "active": true
-        },
-        {
-            "username": "schmeb",
-            "score": 59,
-            "active": true,
-            "id": "i1HYeyQ"
         }
     ]
 }
