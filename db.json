@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "id": "1234abc",
-      "username": "Karlis",
-      "score": 55,
-      "active": true
-    },
-    {
       "id": "qwerty",
       "username": "toms",
       "score": 553,
@@ -85,24 +79,5 @@
       "author": "Robert Frost"
     }
   ],
-  "todos": [
-    {
-      "id": 1,
-      "todo": "Do something nice for someone I care about",
-      "completed": true,
-      "userId": 26
-    },
-    {
-      "id": 2,
-      "todo": "Memorize the fifty states and their capitals",
-      "completed": false,
-      "userId": 48
-    },
-    {
-      "id": 3,
-      "todo": "Watch a classic movie",
-      "completed": false,
-      "userId": 4
-    }
-  ]
+  "todos": []
 }
