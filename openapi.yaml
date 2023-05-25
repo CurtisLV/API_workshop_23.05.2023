@@ -37,7 +37,7 @@ paths:
             operationId: fetchUsers
             responses:
                 '200':
-                    $ref: '#/components/responses/UserRespBody'
+                    $ref: '#/components/responses/UserArrayResponse'
                 default:
                     description: Default error sample response
             tags:
@@ -70,6 +70,14 @@ paths:
             summary: fetch a user
             description: returns a user from the server
             operationId: fetchUser
+            parameters:
+                - name: userId
+                  in: path
+                  required: true
+                  description: user id
+                  schema:
+                      type: string
+                      example: yolo123
             responses:
                 '200':
                     $ref: '#/components/responses/UserRespBody'
@@ -94,6 +102,12 @@ components:
                 application/json:
                     schema:
                         $ref: '#/components/schemas/FullUser'
+        UserArrayResponse:
+            description: array of users
+            content:
+                application/json:
+                    schema:
+                        $ref: '#/components/schemas/UserArray'
     requestBodies:
         UserPostBody:
             required: true
@@ -102,6 +116,10 @@ components:
                     schema:
                         $ref: '#/components/schemas/PostNewUser'
     schemas:
+        UserArray:
+            type: array
+            items:
+                $ref: '#/components/schemas/FullUser'
         PostNewUser:
             type: object
             properties:
